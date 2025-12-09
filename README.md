@@ -47,5 +47,5 @@ The script will:
 
 The Project.sql file is logically organized into three main phases:
 1. Schema and Data Setup: DROP TABLE and CREATE TABLE statements.
-2. Data Exploration & Cleaning: Initial SELECT COUNT(*), LIMIT 10, NULL checks, deletion of erroneous data (mrp = 0), and a critical UPDATE to convert paise to rupees.
+2. Data Exploration & Cleaning: Initial SELECT COUNT(*), LIMIT 10, NULL checks, deletion of erroneous data (mrp=0), and a critical UPDATE to convert paise to rupees.
 3. Business Insights: The 8 detailed analytical queries focusing on pricing, revenue, and logistics.
