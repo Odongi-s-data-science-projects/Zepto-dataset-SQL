@@ -1,14 +1,14 @@
-**Zepto E-commerce Data Analysis (SQL)**
+# **Zepto E-commerce Data Analysis (SQL)**
 
 A comprehensive SQL-based analysis of product inventory and sales data from an e-commerce platform (Zepto) to derive key business insights on pricing, inventory management, and customer value.
 
 
-**Description**
+## **Description**
 
 This repository contains a single SQL script (Project.sql) that demonstrates a complete data analysis pipeline. It covers table creation, data exploration, cleaning steps, and a series of complex queries designed to answer specific business questions related to product performance, pricing strategy, and warehouse/delivery planning.
 
 
-**Key Insights & Features**
+## **Key Insights & Features**
 1. Database Setup: Defines the Zepto table schema for product data.
 2. Data Cleaning: Identifies and corrects data inconsistencies (e.g., handling zero MRP values and converting monetary units).
 3. Pricing Strategy: Identifies the top 10 products with the highest discount percentage.
@@ -17,11 +17,11 @@ This repository contains a single SQL script (Project.sql) that demonstrates a c
 6. Logistics & Planning: Segments products by weight category (Low, Medium, Bulk) and calculates total inventory weight per category for warehouse optimization.
 
 
-**Getting Started**
+## **Getting Started**
 
 This project was built on PostgreSQL.
 
-**Execution**
+## **Execution**
 1. Set up your database: Ensure you have a database connection established.
 2. Execute the SQL script: Run the Project.sql file in your preferred SQL client.
 
@@ -32,7 +32,7 @@ The script will:
 4. Execute all 8 Business Insight Queries.
 
 
-**Business Insights from Zepto E-commerce Data**
+## **Business Insights from Zepto E-commerce Data**
 1. Top 10 Best-Value Products (by Discount) ; Identify products being heavily promoted or offering the best bargains to customers.
 2. High MRP, Out-of-Stock Products ;  Helps the company know products that are being bought frequently, enabling them to restock and prevent loss in revenue.
 3. Estimated Revenue for Each Category ; Provides a baseline for category performance and contribution to overall sales.
@@ -43,7 +43,7 @@ The script will:
 8. Total Inventory Weight Per Category ; Great for warehouse planning, inventory space allocation, and understanding logistics demands.
 
 
-**Script Structure**
+## **Script Structure**
 
 The Project.sql file is logically organized into three main phases:
 1. Schema and Data Setup: DROP TABLE and CREATE TABLE statements.
